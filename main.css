@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.box{
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#color-container{
+    width: 100%;
+}
+
+.color-panel{
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    width: 32%;
+}
+
+.name, .color-code-type, .note{
+    font-weight: bold;
+}
+
+#blue{
+    color: white;
+    background-color: blue;
+}
+
+#black{
+    background-color: #080808;
+    color: white;
+}
+
+#green{
+    background-color: rgb(6, 248, 62);
+    color: black;
+}
+
+#pink{
+    background-color:hsl(350, 100%, 88%);
+}
